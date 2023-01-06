@@ -7,20 +7,13 @@
 /*
   Add Utopia Fluid Font Responsive Design
 */
-    --step--2: clamp(0.69rem, calc(0.63rem + 0.32vw), 0.88rem);
     --step--1: clamp(0.83rem, calc(0.74rem + 0.46vw), 1.10rem);
-    --step-0: clamp(1.00rem, calc(0.87rem + 0.65vw), 1.38rem);
-    --step-1: clamp(1.20rem, calc(1.02rem + 0.90vw), 1.72rem);
-    --step-2: clamp(1.44rem, calc(1.19rem + 1.23vw), 2.15rem);
     --step-3: clamp(1.73rem, calc(1.40rem + 1.67vw), 2.69rem);
-    --step-4: clamp(2.07rem, calc(1.63rem + 2.23vw), 3.36rem);
-    --step-5: clamp(2.49rem, calc(1.89rem + 2.97vw), 4.20rem);
 
 /*
   Add Utopia Fluid Space Responsive Design
 */
     --space-s: clamp(1.00rem, calc(0.80rem + 0.98vw), 1.56rem);
-    
     --space-custom: clamp(25.00rem, calc(20.11rem + 24.46vw), 39.06rem);
 
 }
