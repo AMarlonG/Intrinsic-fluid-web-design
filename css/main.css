@@ -1,6 +1,6 @@
 
-@import "./css/_globals.css";
-@import "./css/_fluids.css";
+@import "./css/globals.css";
+@import "./css/fluids.css";
 /* Font */
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
 
