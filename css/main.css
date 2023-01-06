@@ -34,7 +34,8 @@ body {
 .nav {
     grid-row: 4;
     font-size: var(--step--1);
-    padding-top: 1.5rem;
+    padding: 1.5rem;
+
 }
 
 .links {
