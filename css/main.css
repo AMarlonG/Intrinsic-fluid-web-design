@@ -1,4 +1,46 @@
 
 @import "_globals.css";
 @import "_fluids.css";
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
 
+body {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 0.3rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 
+    4fr var(--space-custom) max-content auto 4fr;
+    justify-items: center;
+    height: 100vh;
+    margin: 0 var(--space-s);
+}
+
+.img {
+    grid-row: 2;
+    height: 100%;
+    aspect-ratio: 4 / 5;
+}
+
+.title {
+    grid-row: 3;
+    font-size: var(--step-3);
+}
+
+.nav {
+    grid-row: 4;
+    font-size: var(--step--1);
+    padding-top: 1.5rem;
+}
+
+.links {
+    padding-block: 0.3em;
+    padding-inline: 0.5em;
+    text-decoration: none;
+    line-height: 2;
+    letter-spacing: 0.2em;
+}
