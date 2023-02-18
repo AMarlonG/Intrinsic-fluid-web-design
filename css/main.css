@@ -17,7 +17,7 @@ body {
     grid-template-rows: 
     4fr var(--space-custom) max-content auto 4fr;
     justify-items: center;
-    height: 100vh;
+    height: 100svh;
     margin: 0 var(--space-s);
 }
 
